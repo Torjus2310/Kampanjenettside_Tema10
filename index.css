@@ -8,10 +8,7 @@
     
 }
 
-html {
-    
-    
-}
+
 
 body {
     background-image: url(./SVG/Background_img_1.svg), linear-gradient( rgb(0, 66, 75), rgba(0, 117, 132, 1) );
@@ -167,7 +164,6 @@ button:hover {
     height: 380px;
     width: 303px;
     background-image: url(./SVG/Flaske.png);
-    background-position: 0px 0px;
 
     position: fixed;
     top: 70%;
@@ -176,7 +172,7 @@ button:hover {
     margin-left: -100px;
 }
 
-.bottle{
+.bottls{
 	animation: dissolve calc(9 * 200ms) steps(8) infinite alternate;
 }
 
@@ -190,8 +186,6 @@ button:hover {
     }
 
 }
-@keyframes 
-
 
 /* text animation */
 
