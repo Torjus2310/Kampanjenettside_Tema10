@@ -10,6 +10,7 @@
 
 html {
     
+    
 }
 
 body {
@@ -17,7 +18,9 @@ body {
     background-repeat: no-repeat;
     background-size: 110%;
     background-position-x: center;
+    
 }
+
 
 section {
     height:100vh;
@@ -75,7 +78,7 @@ quote {
 
 .s4wrapper {
     display: grid;
-    width: 100vw;
+    width: 90vw;
     grid-template-columns:1fr 1fr;
     align-items: center;
     margin: 5rem 5rem 5rem 5rem;
@@ -89,16 +92,6 @@ quote {
  
 }
 
-#salmonImg {
-    
-    height: 700px;
-    width: 700px;
-    position: absolute;
-    left: -200px;
-    transform: translateX(-200px);
-    transform: translateY(-250px);
-   
-}
 
 .section3 {
     display: grid;
@@ -109,10 +102,7 @@ quote {
     margin: -200px;
 }
 
-.section4 {
-    
-    
-}
+
 
 
 .section5 div{
@@ -150,6 +140,24 @@ button:hover {
     margin-left: 2.1rem;
     margin-top: 2.1rem;
     box-shadow: 2px 2px 2px rgba(44, 44, 44, 0.5);
+}
+
+/* Whirl rotate animation */
+
+.whirl {
+
+    animation: whirl-spin infinite 10s linear;
+}
+
+@keyframes whirl-spin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -190,6 +198,50 @@ button:hover {
 
 }
 
+
+
+/* text animation */
+
+@keyframes fade-in {
+
+        from {opacity: 0; transform: scale(.7,.7)}
+        to {opacity: 1;}
+    }
+
+ .fade-in-element {
+
+        animation: fade-in 1.4s;
+       
+    }
+
+
+    @keyframes fade-out {
+
+        from {opacity:1;}
+        to {opacity: 0; transform: scale(.7,.7)}
+    }
+
+ .fade-out-element {
+
+        animation: fade-out 1.4s;
+        animation-fill-mode: forwards;
+    }
+
+/* fish swim animation */
+
+
+  
+#salmonImg {
+    
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    left: -200px;
+    transform: translateX(-200px);
+    transform: translateY(-320px);
+    animation: bounce 5s infinite;
+   
+}
 
 
 
