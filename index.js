@@ -2,30 +2,39 @@ let textIn = document.querySelector ('.textIn');
 let textIn2 = document.querySelector ('.textIn2');
 let h = window.innerHeight;
 let scrollPos = window.scrollY;
+let green = document.querySelector ('.green')
 
 console.log('height',h)
 console.log(scrollPos)
 
 
-window.on
 
-/*
+
+
 window.addEventListener('scroll', () => {
+    console.log(window.scrollY)
+    if ( window.scrollY > 257 ) {
 
-        textIn.classList.add ('fade-in-element')
-    
-               
-}
+            textIn.classList.add ('fade-in-element')
+    }
 })
 
 window.addEventListener('scroll', () => {
     console.log(window.scrollY)
+    if ( window.scrollY > 1025 ) {
+
+            textIn2.classList.add ('fade-in-element')
+    }
+})
+
+
+window.addEventListener('scroll', () => {
+    console.log(window.scrollY)
     
-    if ( scrollY < 1300) {
-        
-        textIn2.classList.add ('fade-in-element')
-               
-}
-})*/
+    if ( window.scrollY > 1900 ) {
+
+            green.classList.add ('greenFill')
+    }
+})
 
 
