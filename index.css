@@ -177,8 +177,7 @@ button:hover {
 }
 
 .bottle{
-
-	animation: dissolve calc(9 * 100ms) steps(8) infinite alternate;
+	animation: dissolve calc(9 * 200ms) steps(8) infinite alternate;
 }
 
 @keyframes dissolve {
@@ -191,7 +190,7 @@ button:hover {
     }
 
 }
-
+@keyframes 
 
 
 /* text animation */
