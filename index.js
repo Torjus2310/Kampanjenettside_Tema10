@@ -2,16 +2,20 @@ let textIn = document.querySelector ('.textIn');
 let textIn2 = document.querySelector ('.textIn2');
 let h = window.innerHeight;
 let scrollPos = window.scrollY;
+<<<<<<< HEAD
 let bottle = document.querySelector('.bottle');
 let frame = 0;
+=======
+let green = document.querySelector ('.green')
+>>>>>>> fc90731a32c3f35a44bdc4f8bb6e05ca59dfa763
 
 console.log('height',h)
 console.log(scrollPos)
 
 
-window.on
 
 
+<<<<<<< HEAD
 window.addEventListener('scroll', (event)=>{
         if(scrollY > scrollPos){
                 console.log(scrollY)
@@ -28,22 +32,33 @@ window.addEventListener('scroll', (event)=>{
 
 
 /*
-window.addEventListener('scroll', () => {
+=======
 
-        textIn.classList.add ('fade-in-element')
-    
-               
-}
+>>>>>>> fc90731a32c3f35a44bdc4f8bb6e05ca59dfa763
+window.addEventListener('scroll', () => {
+    console.log(window.scrollY)
+    if ( window.scrollY > 257 ) {
+
+            textIn.classList.add ('fade-in-element')
+    }
 })
 
 window.addEventListener('scroll', () => {
     console.log(window.scrollY)
+    if ( window.scrollY > 1025 ) {
+
+            textIn2.classList.add ('fade-in-element')
+    }
+})
+
+
+window.addEventListener('scroll', () => {
+    console.log(window.scrollY)
     
-    if ( scrollY < 1300) {
-        
-        textIn2.classList.add ('fade-in-element')
-               
-}
-})*/
+    if ( window.scrollY > 1900 ) {
+
+            green.classList.add ('greenFill')
+    }
+})
 
 
