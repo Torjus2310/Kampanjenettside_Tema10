@@ -155,7 +155,7 @@ button:hover {
 
 /* bottle animation scroll*/
 
-.bottl {
+.bottle {
     height: 376px;
     width: 294px;
     background-image: url(./SVG/spritesheetflaske.png);
@@ -171,7 +171,7 @@ button:hover {
     margin-left: -100px;
 }
 
-.bottl{
+.bottle{
 
 	animation: dissolve calc(9 * 100ms) steps(9) infinite alternate;
 }
