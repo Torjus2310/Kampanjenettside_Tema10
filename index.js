@@ -2,12 +2,7 @@ let textIn = document.querySelector ('.textIn');
 let textIn2 = document.querySelector ('.textIn2');
 let h = window.innerHeight;
 let scrollPos = window.scrollY;
-<<<<<<< HEAD
-let bottle = document.querySelector('.bottle');
-let frame = 0;
-=======
 let green = document.querySelector ('.green')
->>>>>>> fc90731a32c3f35a44bdc4f8bb6e05ca59dfa763
 
 console.log('height',h)
 console.log(scrollPos)
@@ -15,7 +10,6 @@ console.log(scrollPos)
 
 
 
-<<<<<<< HEAD
 window.addEventListener('scroll', (event)=>{
         if(scrollY > scrollPos){
                 console.log(scrollY)
@@ -28,13 +22,6 @@ window.addEventListener('scroll', (event)=>{
     })
 
 
-
-
-
-/*
-=======
-
->>>>>>> fc90731a32c3f35a44bdc4f8bb6e05ca59dfa763
 window.addEventListener('scroll', () => {
     console.log(window.scrollY)
     if ( window.scrollY > 257 ) {
