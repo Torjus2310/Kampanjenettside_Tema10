@@ -2,6 +2,8 @@ let textIn = document.querySelector ('.textIn');
 let textIn2 = document.querySelector ('.textIn2');
 let h = window.innerHeight;
 let scrollPos = window.scrollY;
+let bottle = document.querySelector('.bottle');
+let frame = 0;
 let green = document.querySelector ('.green')
 
 console.log('height',h)
@@ -20,6 +22,11 @@ window.addEventListener('scroll', (event)=>{
         }
    
     })
+
+
+
+
+
 
 
 window.addEventListener('scroll', () => {
