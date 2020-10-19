@@ -58,6 +58,17 @@
         height:80vh;
     }
 
+    .section5 p {
+        max-width: 80vw;
+        padding:0 1rem 1rem 1rem;
+        margin-left: 0;
+        
+    }
+
+    .section5 {
+        height:100vh;
+    }
+
     .dinner-plate {
         margin-top: 5rem;
         height:200px;
@@ -91,8 +102,8 @@
 
     iframe {
         
-        width: 500px;
-        height: 265px;
+        width: 400px;
+        height: 200px;
     }
 
   
