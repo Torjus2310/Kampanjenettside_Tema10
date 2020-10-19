@@ -23,12 +23,6 @@ window.addEventListener('scroll', (event)=>{
    
     })
 
-
-
-
-
-
-
 window.addEventListener('scroll', () => {
     console.log(window.scrollY)
     if ( window.scrollY > 257 ) {
@@ -53,6 +47,16 @@ window.addEventListener('scroll', () => {
 
             green.classList.add ('greenFill')
     }
+})
+
+
+window.addEventListener('scroll', () => {
+
+        if( window.scrollY > 2000 ) {
+
+                bottle.style.cssText = "opacity:0;";
+        }
+
 })
 
 
