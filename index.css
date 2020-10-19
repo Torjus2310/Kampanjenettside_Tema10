@@ -47,7 +47,7 @@ h2 {
 
 quote {
     
-    font-size: 2vw;
+    font-size: 1rem;
     
 }
 
@@ -74,7 +74,7 @@ quote {
 
 .bold {
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 1rem;
 }
 
 .s2div p {

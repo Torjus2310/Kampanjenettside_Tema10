@@ -77,10 +77,12 @@
     .s4wrapper {
         display: block;
         max-width: 80vw;
+        padding-right:1rem;
     
     }
 
     quote {
+        display: inline-block;
         font-size: 0.7rem;
     }
 
@@ -104,6 +106,17 @@
         
         width: 400px;
         height: 200px;
+    }
+
+    footer {
+        display:block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p {
+        margin:0;
+        padding-bottom:1rem;
     }
 
   
