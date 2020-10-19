@@ -212,7 +212,7 @@ button:hover {
     
 }
 
-.bottls{
+.bottl{
 	animation: dissolve calc(9 * 200ms) steps(8) infinite alternate;
 }
 
