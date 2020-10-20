@@ -45,7 +45,7 @@ h1 {
 
 h2 {
 	font-size: 1.5rem;
-	max-width: 20rem;
+    max-width: 20rem;
 }
 
 quote {
@@ -169,7 +169,7 @@ footer {
 button {
 	background-color: #04B3BC;
 	border-radius: 1rem;
-	font-size: 2vw;
+	font-size: 1rem;
 	padding: 1rem 2rem 1rem 2rem;
 	border: none;
 	outline: none;

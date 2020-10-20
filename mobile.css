@@ -1,4 +1,16 @@
 @media (max-width:500px) {
 
-   
+    iframe {
+        
+        width: 250px;
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    #titlespan {
+        font-size: 7vw;
+    }
 }
