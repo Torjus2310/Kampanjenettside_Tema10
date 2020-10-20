@@ -9,12 +9,11 @@
 }
 
 
-
 body {
 	background-image: url(./SVG/Background_img_1.svg), linear-gradient(rgb(0, 66, 75), rgba(0, 117, 132, 1));
 	background-repeat: no-repeat;
 	background-size: 110%;
-	background-position-x: center;
+    background-position-x: center;
 }
 
 
@@ -205,13 +204,11 @@ button:hover {
 	height: 380px;
 	width: 303px;
 	background-image: url(./SVG/Flaske.png);
-
 	position: fixed;
 	top: 70%;
 	left: 50%;
 	margin-top: -100px;
 	margin-left: -100px;
-	transform: rotate(20deg) scale(0.7);
 
 }
 
@@ -293,6 +290,7 @@ button:hover {
 	left: -200px;
 	transform: translateX(-200px);
 	transform: translateY(-320px);
-	animation: bounce 5s infinite;
+    animation: bounce 5s infinite;
+    
 
 }
