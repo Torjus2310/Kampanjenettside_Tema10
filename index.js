@@ -48,7 +48,7 @@ let rCounter = 0;
 	let xPos = Math.sin(xCounter) * 30;
 	let yPos = Math.sin(yCounter) * 25;
 	let rot = Math.sin(rCounter) * 10;
-	bottle.style.cssText += "transform: translate("+ xPos +"px, "+ yPos +"px) rotate("+ rot +"deg);";
+	bottle.style.cssText += "transform: scale(0.7) translate("+ xPos +"px, "+ yPos +"px) rotate("+ rot +"deg);";
 
 	window.requestAnimationFrame(draw);
 }());
