@@ -13,4 +13,8 @@
     #titlespan {
         font-size: 7vw;
     }
+
+    .bottle {
+        transform: scale(0.5);
+    }
 }

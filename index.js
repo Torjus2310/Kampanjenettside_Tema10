@@ -56,7 +56,11 @@ let rCounter = 0;
 /*
  * Fade-in active elements
  */
+
+//let mobile = window.matchMedia("(min-width: 500px)")
+
 window.addEventListener('scroll', () => {
+
 	if (window.scrollY > 257) {
 		textIn.classList.add('fade-in-element')
 	}
@@ -75,7 +79,7 @@ window.addEventListener('scroll', () => {
 });
 
 window.addEventListener('scroll', () => {
-	if (window.scrollY > 2000) {
+	if (window.scrollY > 2200) {
 		bottle.style.cssText = "opacity:0;";
 	}
 });
