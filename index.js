@@ -7,8 +7,7 @@ let green = document.querySelector('.green');
  *	Set bottle sprite by scroll position
  */
 window.addEventListener('scroll', (event) => {
-	console.log('bottle', bottle.getBoundingClientRect());
-	console.log('text', textIn.getBoundingClientRect());
+	
 
 	let bottleTop = bottle.getBoundingClientRect().top;
 	let yBreakPoint1 = textIn.getBoundingClientRect().top - 250;
@@ -48,7 +47,7 @@ let rCounter = 0;
 	let xPos = Math.sin(xCounter) * 30;
 	let yPos = Math.sin(yCounter) * 25;
 	let rot = Math.sin(rCounter) * 10;
-	bottle.style.cssText += "transform: scale(0.7) translate("+ xPos +"px, "+ yPos +"px) rotate("+ rot +"deg);";
+	bottle.style.cssText += "transform: scale(0.6) translate("+ xPos +"px, "+ yPos +"px) rotate("+ rot +"deg);";
 
 	window.requestAnimationFrame(draw);
 }());
@@ -59,12 +58,7 @@ let rCounter = 0;
 
 //let mobile = window.matchMedia("(min-width: 500px)")
 
-window.addEventListener('scroll', () => {
 
-	if (window.scrollY > 257) {
-		textIn.classList.add('fade-in-element')
-	}
-});
 
 window.addEventListener('scroll', () => {
 	if (window.scrollY > 1025) {
@@ -78,8 +72,29 @@ window.addEventListener('scroll', () => {
 	}
 });
 
+let bottleOpacity = 2200
 window.addEventListener('scroll', () => {
-	if (window.scrollY > 2200) {
+	if (window.scrollY > bottleOpacity) {
 		bottle.style.cssText = "opacity:0;";
-	}
+    }
+    
+    if(innerWidth < 500) {
+        bottleOpacity = 1300
+    }
 });
+
+
+
+window.addEventListener('scroll', () => {
+        if (window.scrollY > 257) {
+            textIn.classList.add('fade-in-element')
+
+            } 
+    });
+
+
+
+
+
+
+

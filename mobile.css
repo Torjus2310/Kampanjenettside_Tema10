@@ -8,6 +8,8 @@
 
     h1 {
         font-size: 7vw;
+        
+        
     }
 
     #titlespan {
@@ -15,6 +17,28 @@
     }
 
     .bottle {
-        transform: scale(0.5);
+        left:65%;
     }
+
+   .section1 {
+       margin:2rem;
+   }
+
+   .section1 p {
+       padding-top:7rem;
+       
+   }
+
+   .s2div p {
+       margin:2rem;
+       padding-top: 10rem;
+   }
+
+   .section3 {
+       margin-top:10rem;
+   }
+
+
+    
+     
 }

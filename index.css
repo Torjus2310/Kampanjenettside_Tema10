@@ -261,6 +261,10 @@ button:hover {
 
 }
 
+.static-element {
+    color:white;
+}
+
 
 
 @keyframes fade-out {
