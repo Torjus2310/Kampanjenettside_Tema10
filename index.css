@@ -262,7 +262,7 @@ button:hover {
 }
 
 .static-element {
-    color:white;
+    visibility: visible;
 }
 
 

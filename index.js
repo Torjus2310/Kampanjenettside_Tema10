@@ -59,11 +59,14 @@ let rCounter = 0;
 //let mobile = window.matchMedia("(min-width: 500px)")
 
 
-
+let bottleHeight = 1025
 window.addEventListener('scroll', () => {
-	if (window.scrollY > 1025) {
+	if (window.scrollY > bottleHeight) {
 		textIn2.classList.add('fade-in-element')
-	}
+    }
+    if(innerWidth < 500) {
+        bottleHeight = 500
+    }
 });
 
 window.addEventListener('scroll', () => {
@@ -91,6 +94,10 @@ window.addEventListener('scroll', () => {
 
             } 
     });
+
+
+
+    
 
 
 
