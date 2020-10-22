@@ -104,16 +104,11 @@
         height: 200px;
     }
 
-    footer {
-        display:block;
-        align-items: center;
-        justify-content: center;
-    }
-
     footer p {
         margin:0;
-        padding-bottom:1rem;
     }
+
+    
 
   
 
