@@ -56,7 +56,7 @@ quote {
 
 .green {
 
-	font-size: 5vw;
+	font-size: 4rem;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: linear-gradient(to right,
@@ -187,7 +187,10 @@ button:hover {
 .credit {
     text-decoration: none;
     font-size: 0.5rem;
+    
 }
+
+
 
 /* Whirl rotate animation */
 

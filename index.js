@@ -82,7 +82,7 @@ window.addEventListener('scroll', () => {
     }
     
     if(innerWidth < 500) {
-        bottleOpacity = 1300
+       let = bottleOpacity = 1200
     }
 });
 

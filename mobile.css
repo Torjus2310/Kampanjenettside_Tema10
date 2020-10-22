@@ -12,6 +12,11 @@
         
     }
 
+    .green {
+        font-size: 2rem;
+    }
+
+
     #titlespan {
         font-size: 7vw;
     }
@@ -36,6 +41,12 @@
 
    .section3 {
        margin-top:10rem;
+   }
+
+   .s4wrapper {
+       margin:25%;
+
+       
    }
 
 
